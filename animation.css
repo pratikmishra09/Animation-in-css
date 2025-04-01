@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    margin: 20px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: solid black 2px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    box-shadow: 11px 13px 15px rgb(0, 18, 18);
+    animation: move 4s infinite alternate ease-in-out;
+    display: block;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 18px 20px rgba(0, 0, 0, 0.5);
+    border-color: gold;
+    box-shadow: 20px 25px 30px rgba(255, 215, 0, 0.8);
+    font-size: larger;
+}
+
+@keyframes move {
+    0% { transform: translateX(-100px); }
+    50% { transform: translateX(100px); }
+    75% { transform: translateY(-50px); }
+    100% { transform: translateY(50px); }
+}
+
+@media screen and (max-width: 1024px) {
+    img {
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 120px;
+    }
+}
+
+#form {
+  
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+    color: darkgrey;
+    font-size: 30px;
+    width: 80%;
+}
+
+#form button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #22300c;
+    color: rgb(228, 232, 11);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#form button:hover {
+    background-color: gold;
+    transform: scale(1.1);
+    color: red;
+}
+#form:hover{
+   
+    background-image: url(/Image/warrior-anime-girl-with-sword-m5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}

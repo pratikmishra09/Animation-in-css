@@ -1,0 +1,21 @@
+#box1{
+    height:250px;
+    width: 250px;
+    border: solid  rgb(11, 0, 0) 2px;
+     font-size: 5em;
+     text-align: center;
+     background-color: rgb(240, 237, 237);
+     box-shadow: rgb(53, 53, 170) 3px 5px 16px;
+    transform: translateY(100px);
+    transform: rotate(1 0deg);
+}
+#img{
+    
+    width: 150px;
+    border: solid  rgb(11, 0, 0) 2px;
+ transform: translateX(500px);
+    /* transform: translateZ(1500px); */
+    cursor: not-allowed;
+    transform: tr;
+
+}
