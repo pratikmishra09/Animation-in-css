@@ -81,7 +81,7 @@ img:hover {
 }
 #form:hover{
    
-    background-image: url(/Image/warrior-anime-girl-with-sword-m5.jpg);
+    background-image: url(Image/warrior-anime-girl-with-sword-m5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -127,7 +127,7 @@ h1:hover{
 }
 
 #box1:hover {
-    background-image: url("/Image/Roxy\ .jpg");
+    background-image: url("Image/Roxy\ .jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
